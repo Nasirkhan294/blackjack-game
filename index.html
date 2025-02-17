@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackjack Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Blackjack</h1>
-    <p id="message-el">Want to play a round?</p>
-    <p id="cards-el">Cards:</p>
-    <p id="sum-el">Sum:</p>
-    <button onclick="startGame()">Start Game</button>
-    <button onclick="newCard()">New Card</button>
-    <p id="player-el"></p>
+    <div class="container">
+        <h1>Blackjack</h1>
+        <p class="message">want to play a round?</p>
+        <p class="cards">Cards: </p>
+        <p class="sum">Sum: </p>
+        <div class="btn-group">
+            <button class="btn">Start Game</button>
+            <button class="btn">New Card</button>
+        </div>
+        <p class="player-id">Nasir: $135</p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
