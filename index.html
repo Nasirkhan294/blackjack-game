@@ -9,14 +9,14 @@
 <body>
     <div class="container">
         <h1>Blackjack</h1>
-        <p class="message">want to play a round?</p>
-        <p class="cards">Cards: </p>
-        <p class="sum">Sum: </p>
+        <p id="message">want to play a round?</p>
+        <p id="cards">Cards: </p>
+        <p id="sum">Sum: </p>
         <div class="btn-group">
-            <button class="btn">Start Game</button>
-            <button class="btn">New Card</button>
+            <button class="btn" onclick="startGame()">Start Game</button>
+            <button class="btn" onclick="newCard()">New Card</button>
         </div>
-        <p class="player-id">Nasir: $135</p>
+        <p id="player-id"></p>
     </div>
     <script src="script.js"></script>
 </body>
